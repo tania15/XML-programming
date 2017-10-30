@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie id="1" year="1990" inColor="true" studioId="s1">
+        <title>Pretty Woman</title>
+        <lenght unit="minutes">119</lenght>         <!-- друг начин: <lenght unit="minutes" value="119"/> -->
+        <!-- 
+         TITLE,YEAR,LENGTH,INCOLOR,STUDIONAME,PRODUCERC#
+        "Pretty Woman",1990,119,"Y","Disney",199 
+        -->
+        
+        <studio id="s1">
+            <name>Disney</name>
+            <address>500 S. Buena Vista Street</address>          <!-- stuio е първа вложена група елементи с 2 елемента: name и address, producer е втора вложена група елементи -->
+        </studio>
+        <!-- 
+        NAME,ADDRESS,PRESC#
+        "Disney","500 S. Buena Vista Street",1
+        -->
+        
+        <producer>
+            <name>Merv Griffin</name>
+            <address>Riot Rd.</address>
+            <networth currency="USD" value="112000000"/>
+        </producer>    
+        <!-- 
+        NAME,ADDRESS,CERT#,NETWORTH
+        "Merv Griffin","Riot Rd.",199,112000000 
+        -->
+        
+        <casting>
+            <actor gender="F" birthDate="1977-07-07">
+                <name>Jane Fonda</name>
+                <address>Turner Av.</address>
+            </actor>
+         <!-- 
+         NAME,ADDRESS,GENDER,BIRTHDATE
+         "Jane Fonda","Turner Av.","F","1977-07-07"
+         -->
+         </casting>
+        
+    </movie>
+
+</movies>
+
+
+
+
+<!-- 
+ Коментари
+-->
