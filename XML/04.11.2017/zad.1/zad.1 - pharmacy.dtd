@@ -1,0 +1,22 @@
+<!ELEMENT catalog (medicine+)>
+<!ELEMENT medicine (name, price, available, package, itemsInPackage, activeSubstances, description,
+    manufacturer, type, illneses, medicineUnit)>
+<!ATTLIST medicine id ID #REQUIRED
+                   type NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency (BGN) #REQUIRED>
+<!ELEMENT available (#PCDATA)>
+<!ELEMENT package (#PCDATA)>
+<!ELEMENT itemsInPackage (#PCDATA)>
+<!ELEMENT activeSubstances (activeSubstance+)>
+<!ELEMENT activeSubstance (title, quantity)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ATTLIST quantity unit CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT illneses (illnes+)>
+<!ELEMENT illnes (#PCDATA)>
+<!ELEMENT medicineUnit (#PCDATA)>

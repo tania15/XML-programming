@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "pharmacy_catalog.dtd">
+<catalog>
+    <medicines>
+        <medicine id="M30005052" type="T1" illnesses="J03 J00 R51 R07.0 G43 J02 M79.2 N94">
+            <name>ТАЙЛОЛ ХОТ ЗА ВЪЗРАСТНИ саше * 12</name>
+            <price currency="BGN">11.50</price>            
+            <available>7</available>
+            <image>http://static.framar.bg/product/Tylol-hot.500-mg.jpg</image>
+            <package>кутия</package>
+            <items_in_package unit="MU4">12</items_in_package>
+            <active_substances>
+                <active_substance>
+                    <title>парацетамол</title>
+                    <quantity unit="mg">500</quantity>
+                    <international_title>paracetamol</international_title>
+                </active_substance>
+                <active_substance>
+                    <title>хлорфенираминов малеат</title>
+                    <quantity unit="mg">4</quantity>
+                    <international_title>chlorpheniramine maleate</international_title>
+                </active_substance>
+                <active_substance>
+                    <title>псевдоефедринов хидрохлорид</title>
+                    <quantity unit="mg">60</quantity>
+                    <international_title>pseudoephedrine hydrochloride</international_title>
+                </active_substance>
+            </active_substances>
+            <description><![CDATA[    
+                ТАЙЛОЛ ХОТ има аналгетично (болкоуспокояващо), антипиретично (понижаващо температурата), антихистаминово (противоалергично) и намаляващо отока на лигавицата на горните дихателни пътища действие, което се дължи на активните му съставки: парацетамол, хлорфенираминов малеат и псевдоефедринов хидрохлорид.
+                Парацетамолът облекчава болката и понижава телесната температура.
+                Хлорфенираминовият малеат облекчава следните симптоми: хрема, оток на носната лигавица, зачервяване и/или свръхчувствителност на очите.
+                Псевдоефедриновият хидрохлорид намалява отока на лигавицата на горните дихателни пътища.
+                
+                ТАЙЛОЛ ХОТ е показан за облекчаване на следните симптоми на простуда и грип:
+                
+                назална конгестия (запушване на носа);
+                хрема;
+                кихане;
+                повишена телесна температура;
+                лека до умерена болка от различен произход.
+                ]]>
+            </description>
+            <manufacturer>NOVEL</manufacturer>
+        </medicine>
+    </medicines>
+    <types>
+        <type type_id="T1">Без рецепта</type>
+        <type type_id="T2">Ваксини и серуми</type>
+        <type type_id="T3">С рецепта</type>
+        <type type_id="T4">Фасовки и субстанции</type>
+        <type type_id="T5">Хомеопатични</type>
+    </types>
+    <illnesses>
+        <illness illness_id="J03">Остър тонзилит (ангина)</illness>
+        <illness illness_id="J00">Остър назофарингит [хрема]</illness>
+        <illness illness_id="R51">Главоболие</illness>
+        <illness illness_id="R07.0">Болка в гърлото</illness>
+        <illness illness_id="G43">Мигрена</illness>
+        <illness illness_id="J02">Остър фарингит</illness>
+        <illness illness_id="M79.2">Неуточнени невралгия и неврит</illness>
+        <illness illness_id="N94">Болка и други състояния, свързани с женските полови органи и менструалния цикъл</illness>
+    </illnesses>
+    <medicine_units>
+        <medicine_unit id="MU1">таблетка</medicine_unit>
+        <medicine_unit id="MU2">разтвор</medicine_unit>
+        <medicine_unit id="MU3">капсула</medicine_unit>
+        <medicine_unit id="MU4">саше</medicine_unit>
+    </medicine_units>
+</catalog>
