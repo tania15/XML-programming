@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "Pastry shop.dtd">
 
 <!-- PASTRY SHOP -->
 
@@ -7,7 +8,7 @@
         <cake id = 'C1'>                      
             <name>Мираж</name>
             <category type = 'Шоколадова'/>
-            <price currency = 'BGN'>28</price>
+            <price currency = 'Лев'>28</price>
             <available>2</available>
             <piece>16</piece>
             <weight weight = 'кг'>1.8</weight>
@@ -27,10 +28,10 @@
             <image>http://www.chochko.com/shop/стандартни/торта-мираж/</image>
         </cake>  
         
-        <cake>
+        <cake id = 'C4'>
             <name>Еклерова</name>
             <category type = 'Млечна'/>   
-            <price currency = 'BGN'>32</price>
+            <price currency = 'Лев'>32</price>
             <available>1</available>
             <piece>16</piece>
             <weight weight = 'кг'>2.1</weight>
@@ -57,13 +58,13 @@
     <candies>
         <candy>
             <name>Трюфел</name>
-            <price>11.20</price>
+            <price currency = 'Лев'>11.20</price>
             <expiryDate date = 'Дни'>20</expiryDate>
         </candy>
         
         <candy>
             <name>Кокосови бонбони</name>
-            <price>9.90</price>
+            <price currency = 'Лев'>9.90</price>
             <expiryDate date = 'Дни'>20</expiryDate>
         </candy>
     </candies>  
@@ -71,7 +72,7 @@
     <cookies>
         <cookie>
             <name>Ореховки</name>
-            <price currency = 'BGN'>1.10</price>
+            <price currency = 'Лев'>1.10</price>
             <quantity quantity = 'Брой'>1</quantity>
             <products>           
                 <product number = 'P1'>Захар</product>    
@@ -82,7 +83,7 @@
         
         <cookie>
             <name>Пълнозърнести бисквити</name>
-            <price currency = 'BGN'>1.40</price>
+            <price currency = 'Лев'>1.40</price>
             <quantity quantity = 'Брой'>1</quantity>
             <products>           
                 <product number = 'P1'>Захар</product>    
@@ -98,13 +99,13 @@
     <creams>
         <cream>
             <type>Шоколадов</type>
-            <price currency = 'BGN'>3</price>
+            <price currency = 'Лев'>3</price>
             <quantity quantity = 'Мл'>250</quantity>
         </cream>
         
         <cream>
             <type>Яйчен</type>
-            <price currency = 'BGN'>2.80</price>
+            <price currency = 'Лев'>2.80</price>
             <quantity quantity = 'Мл'>220</quantity>
         </cream>
     </creams>

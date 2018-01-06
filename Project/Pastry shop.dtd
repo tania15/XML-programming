@@ -1,0 +1,35 @@
+<!ELEMENT catalog (cakes, candies, cookies, creams)>
+
+<!ELEMENT cakes (cake)+>
+<!ELEMENT cake (name, category, price, available, piece, weight, products,
+                expiryDate, storage, description, image)>
+<!ATTLIST cake id NMTOKEN #REQUIRED>                   
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT category EMPTY>
+<!ATTLIST category type NMTOKEN #REQUIRED>   
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #FIXED 'Лев'>         
+<!ELEMENT available (#PCDATA)>
+<!ELEMENT piece (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ATTLIST weight weight CDATA #FIXED 'кг'>               
+<!ELEMENT products (product)+>
+<!ELEMENT product (#PCDATA)>
+<!ATTLIST product number NMTOKEN #REQUIRED>
+<!ELEMENT expiryDate (#PCDATA)>
+<!ATTLIST expiryDate date CDATA #FIXED 'Дни'>     
+<!ELEMENT storage (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+
+<!ELEMENT candies (candy)*>
+<!ELEMENT candy (name,price,expiryDate)>
+
+<!ELEMENT cookies (cookie)*>
+<!ELEMENT cookie (name,price,quantity,products)>
+<!ELEMENT quantity (#PCDATA)>
+<!ATTLIST quantity quantity NMTOKEN #REQUIRED>
+
+<!ELEMENT creams (cream)*>
+<!ELEMENT cream (type,price,quantity)>
+<!ELEMENT type (#PCDATA)>
