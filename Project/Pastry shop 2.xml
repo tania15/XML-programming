@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "Pastry shop.dtd">
+
+<catalog>
+    <cakes>
+        <cake id = 'C12'>                      
+            <name>Черно и бяло</name>
+            <category type = 'Класическа'/>
+            <price currency = 'Лев'>29.50</price>
+            <available>1</available>
+            <piece>16</piece>
+            <weight weight = 'кг'>2.050</weight>
+            <products>           
+                <product number = 'P1'>Захар</product>  
+                <product number = 'P2'>Пудра захар</product>
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P14'>Вода</product>
+                <product number = 'P11'>Кисело мляко</product>
+                <product number = 'P61'>Какао</product>
+                <product number = 'P457'>Ром с аромат на шоколад</product>
+                <product number = 'P558'>Френски макарон</product>
+                <product number = 'P201'>Ванилия</product>
+            </products>   
+            <expiryDate date = 'Дни'>10</expiryDate>   
+            <storage>В хладилник</storage>
+            <description><![CDATA[ 
+                Торта с класически вкус на крем ванилия и шоколад. Какаови блатове 
+                напръскани с ароматен ром, полята с шоколад и украсена с хрупкав 
+                френски макарон.  
+                ]]>
+            </description> 
+            <image>http://www.chochko.com/shop/стандартни/черно-и-бяло/</image>
+        </cake>  
+        
+        <cake id = 'C31'>
+            <name>Рафаело</name>
+            <category type = 'Стандартна'/>   
+            <price currency = 'Лев'>35</price>
+            <available>1</available>
+            <piece>16</piece>
+            <weight weight = 'кг'>2.250</weight>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P5'>Яйца</product>
+                <product number = 'P14'>Вода</product>
+                <product number = 'P6'>Прясно мляко</product>
+                <product number = 'P62'>Подсладена сладкарска сметана</product>
+                <product number = 'P38'>Бял шоколад</product>
+                <product number = 'P103'>Кокосови стърготини</product>
+                <product number = 'P114'>Бадеми</product>
+            </products>   
+            <expiryDate date = 'Дни'>11</expiryDate>   
+            <storage>В хладилник</storage>
+            <description><![CDATA[ 
+                Класическа комбинация на кокосови блатове с крем рафаело, обсипани с фин кокос.  
+                ]]>
+            </description> 
+            <image>http://www.chochko.com/shop/стандартни/торта-рафаело/</image>
+        </cake>  
+        
+        <cake id = 'C6'>
+            <name>Плодова</name>
+            <category type = 'Класическа'/>   
+            <price currency = 'Лев'>18</price>
+            <available>3</available>
+            <piece>8</piece>
+            <weight weight = 'кг'>1.150</weight>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P5'>Яйца</product>
+                <product number = 'P14'>Вода</product>
+                <product number = 'P6'>Прясно мляко</product>
+                <product number = 'P62'>Подсладена сладкарска сметана</product>
+                <product number = 'P310'>Ягода</product>
+                <product number = 'P318'>Портокол</product>
+                <product number = 'P320'>Киви</product>
+                <product number = 'P304'>Ябълка</product>
+            </products>   
+            <expiryDate date = 'Дни'>12</expiryDate>   
+            <storage>В хладилник</storage>
+            <description><![CDATA[ 
+                Домашен млечен крем ухаещ на вашето детство, бели пандишпанови 
+                платки украсена с разнообразни плодове.  
+                ]]>
+            </description> 
+            <image>http://www.chochko.com/shop/стандартни/плодова-пита/</image>
+        </cake>    
+    </cakes>
+    
+    <candies>
+        <candy>
+            <name>Трюфел</name>
+            <price currency = 'Лев'>11.20</price>
+            <expiryDate date = 'Дни'>20</expiryDate>
+        </candy>
+        
+        <candy>
+            <name>Кокосови бонбони</name>
+            <price currency = 'Лев'>9.90</price>
+            <expiryDate date = 'Дни'>20</expiryDate>
+        </candy>
+    </candies>  
+    
+    <cookies>
+        <cookie>
+            <name>Меденка</name>
+            <price currency = 'Лев'>0.90</price>
+            <quantity quantity = 'Брой'>1</quantity>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P46'>Мед</product>
+            </products>  
+        </cookie>
+        
+        <cookie>
+            <name>Бисквита с бял шоколад и лешници</name>
+            <price currency = 'Лев'>1.25</price>
+            <quantity quantity = 'Брой'>1</quantity>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P38'>Бял шоколад</product>
+                <product number = 'P115'>Лешник</product>
+            </products>  
+        </cookie>
+    </cookies>
+    
+    <creams>
+        <cream>
+            <type>Тирамису</type>
+            <price currency = 'Лев'>3.10</price>
+            <quantity quantity = 'Мл'>250</quantity>
+        </cream>
+        
+        <cream>
+            <type>Крем карамел</type>
+            <price currency = 'Лев'>2.80</price>
+            <quantity quantity = 'Мл'>225</quantity>
+        </cream>
+        
+        <cream>
+            <type>Мус ванилия</type>
+            <price currency = 'Лев'>2.95</price>
+            <quantity quantity = 'Мл'>240</quantity>
+        </cream>
+    </creams>
+    
+</catalog>

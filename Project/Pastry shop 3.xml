@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "Pastry shop.dtd">
+
+<catalog>
+    <cakes>
+        <cake id = 'C2'>                      
+            <name>Шоко лешник</name>
+            <category type = 'Шоколадова'/>
+            <price currency = 'Лев'>31.50</price>
+            <available>2</available>
+            <piece>16</piece>
+            <weight weight = 'кг'>2.300</weight>
+            <products>           
+                <product number = 'P1'>Захар</product>  
+                <product number = 'P2'>Пудра захар</product>
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P6'>Прясно мляко</product>
+                <product number = 'P14'>Вода</product>
+                <product number = 'P61'>Какао</product>
+                <product number = 'P36'>Натурален шоколад</product>
+                <product number = 'P115'>Лешник</product>
+            </products>   
+            <expiryDate date = 'Дни'>10</expiryDate>   
+            <storage>В хладилник</storage>
+            <description><![CDATA[ 
+                Нежно съчетание на лешников какаов крем, кафеви платки и цели шоколадени лешници.  
+                ]]>
+            </description> 
+            <image>http://www.chochko.com/shop/стандартни/шоко-лешник/</image>
+        </cake>  
+        
+        <cake id = 'C3'>
+            <name>Гараш</name>
+            <category type = 'Шоколадова'/>   
+            <price currency = 'Лев'>34</price>
+            <available>1</available>
+            <piece>16</piece>
+            <weight weight = 'кг'>1.900</weight>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P14'>Вода</product>
+                <product number = 'P6'>Прясно мляко</product>
+                <product number = 'P36'>Натурален шоколад</product>
+                <product number = 'P37'>Млечен шоколад</product>
+                <product number = 'P113'>Орехи</product>
+            </products>   
+            <expiryDate date = 'Дни'>10</expiryDate>   
+            <storage>В хладилник</storage>
+            <description><![CDATA[ 
+                Прекрасно съчетание от шоколадов крем гараш с орехови ядки, 
+                орехови платки, покрита с великолепен натурален шоколад.  
+                ]]>
+            </description> 
+            <image>http://www.chochko.com/shop/стандартни/торта-гараш/</image>
+        </cake>  
+        
+    </cakes>
+    
+    <candies></candies>  
+    
+    <cookies>
+        <cookie>
+            <name>Шоколадиви бишкоти</name>
+            <price currency = 'Лев'>3.30</price>
+            <quantity quantity = 'Брой'>6</quantity>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P37'>Млечен шоколад</product>
+                <product number = 'P6'>Прясно мляко</product>
+            </products>  
+        </cookie>
+        
+        <cookie>
+            <name>Курабии</name>
+            <price currency = 'Лев'>2.80</price>
+            <quantity quantity = 'Брой'>15</quantity>
+            <products>           
+                <product number = 'P1'>Захар</product>    
+                <product number = 'P18'>Олио</product>
+                <product number = 'P7'>Брашно</product>
+                <product number = 'P16'>Кисело мляко</product>
+                <product number = 'P143'>Бакпулвер</product>
+                <product number = 'P201'>Ванилия</product>
+            </products>  
+        </cookie>
+    </cookies>
+    
+    <creams>
+        <cream>
+            <type>Ягодов мус</type>
+            <price currency = 'Лев'>3.90</price>
+            <quantity quantity = 'Мл'>220</quantity>
+        </cream>
+    </creams>
+    
+</catalog>
